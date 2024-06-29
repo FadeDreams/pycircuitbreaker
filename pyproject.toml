@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "pysafecircuit"
-version = "0.1.0"
+version = "0.1.1"
 description = "This Python code defines a CircuitBreaker class with configurable failure thresholds and timeouts, managing state transitions and callbacks for open, half-open, and closed states."
 authors = ["fadedreams7 <fadedreams7@gmail.com>"]
 readme = "README.md"
