@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "pysafecircuit"
+version = "0.1.0"
+description = "This Python code defines a CircuitBreaker class with configurable failure thresholds and timeouts, managing state transitions and callbacks for open, half-open, and closed states."
+authors = ["fadedreams7 <fadedreams7@gmail.com>"]
+readme = "README.md"
+license = "MIT"
+homepage = "https://github.com/fadedreams/pycircuitbreaker"
+repository = "https://github.com/fadedreams/pycircuitbreaker"
+keywords = ["circuit breaker", "error", "utilities"]
+classifiers = [
+    "Environment :: Console",
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+    "Topic :: Utilities"
+]
+include = [
+    "LICENSE",
+    "README.md" 
+]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
